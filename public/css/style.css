@@ -1,0 +1,166 @@
+body {
+  background: #3d3d3d;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#logo {
+  margin-top: 80px;
+  border:0;
+
+}
+.img-thumbnail {
+  background-color: #3d3d3d;
+}
+
+form.signup,
+form.login {
+  margin-top: 50px;
+}
+​
+h2{ 
+  display: inline;
+  margin-left: 450px;
+}
+.thumbnail>img {
+  display: block;
+  max-width: 200px;
+  height: auto;
+}
+.thumbnail>selected {
+  padding: 6px;
+  margin: 12px;
+  border: 1px solid #DDD;
+  background-color: #08C;
+}
+.clearfix {
+clear: left;
+}
+.thumbnail {
+  /* display: block; */
+  float: left;
+  max-width: 200px;
+  height: auto;
+}
+.btn-image {
+  padding : 6px;
+  margin: 12px;
+}
+.hiddenradio [type=radio] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+/* IMAGE STYLES */
+.hiddenradio [type=radio] + img {
+cursor: pointer;
+}
+/* CHECKED STYLES */
+.hiddenradio [type=radio]:checked + img {
+outline: 2px solid #f00;
+}
+
+.list-group-item {
+  line-height: 2.5;
+}
+
+ STYLE FOR BIRTHDAY CARD
+
+ .container {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 25px;
+
+}
+
+#card-bg {
+  align-content: center;
+  color: goldenrod;
+  background-image: url("card.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  clear: both; */
+ }
+
+h2 {
+  margin-top: 75px;
+  text-align: center;
+  font-size: 50px;
+  font-family: cursive;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 200px;
+  text-align: center;
+  font-family: cursive;
+}
+
+h5,
+h6 {
+  text-align: center;
+  padding: 5px;
+}
+
+h3 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 40px;
+} */
+
+ p {
+  font-size: 50px;
+}
+
+.fa:hover {
+  cursor: pointer;
+  color: green;
+}
+
+.icon {
+  font-size: 50px;
+}
+
+
+body {
+  background: url("https://media.giphy.com/media/l4KihuqeuJEi9qLSM/giphy.gif") no-repeat center center fixed;
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+  overflow: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+#email-bg-header{
+  background: url(“https://media.giphy.com/media/l0Ex8E17mqY09WNTG/giphy.gif“);
+ }
+
+#text:hover{
+  padding:18% 0% 0% 0%;
+  color:transparent;
+}
+
+#logo {
+  margin-top: 5%;
+  margin-left: 5%;
+  border:0;
+  float: center;
+
+}
+
+
+#text:hover{
+  padding:18% 0% 0% 0%;
+  color:transparent;
+}
+
+#email-bg-header{
+  background: url("https://media.giphy.com/media/l0Ex8E17mqY09WNTG/giphy.gif");
+
+}

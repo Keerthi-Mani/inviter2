@@ -1,0 +1,48 @@
+<div id="home">
+  <div class="container">
+    <div class="jumbotron text-center">
+      <h1>Send a Text Message</h1>
+    </div>
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <div class="card">
+          <div class="card-header">
+            <strong>Send a Text Message</strong>
+          </div>
+          <div class="card-body p-2">
+            <form>
+              <div class="form-group">
+                <label for="name"><strong>Name :</strong></label>
+                <input id="name" class="person-name form-control" placeholder="Enter a name" type="text" />
+              </div>
+              <div class="form-group">
+                <label for="phone"><strong>Phone Number :</strong></label>
+                <input id="phone" class="phone form-control" placeholder="Enter a phone number" type="phone" />
+              </div>
+              <div class="form-group">
+                <label for="add-text"><strong>Message :</strong> </label>
+                <textarea id="text-message" class="form-control" type="text" rows="10" cols="65"></textarea>
+              </div>
+              <select name="schedule" id="schedule">
+                <option value="0">Schedule time to send a message</option>
+                <option value="1">After 1 minutes</option>
+                <option value="3">After 3 minutes</option>
+                <option value="5">After 5 minutes</option>
+              </select>
+              <div class="float-right">
+                <button class="btn btn-success btn-lg" id="send-btn">
+                  <span class="fa fa-mail"></span>Send
+                </button>
+              </div>
+            </form>
+          </div>
+          <p class="response"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--Text message script-->
+<script src="js/texts.js"></script>
