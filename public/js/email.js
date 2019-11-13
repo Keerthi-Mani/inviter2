@@ -42,7 +42,7 @@ $("#send-btn").on("click", async function (event) {
             console.log('Error: ', error);
         };
     }
-    Empty each input box by replacing the value with an empty string
+    //Empty each input box by replacing the value with an empty string
     $("#name").val("");
     $("#email").val("");
     $("#relation").val("");
