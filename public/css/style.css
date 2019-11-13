@@ -138,7 +138,7 @@ body {
 }
 
 #email-bg-header{
-  background: url(“https://media.giphy.com/media/l0Ex8E17mqY09WNTG/giphy.gif“);
+  background: url("https://media.giphy.com/media/l0Ex8E17mqY09WNTG/giphy.gif");
  }
 
 #text:hover{
@@ -151,9 +151,7 @@ body {
   margin-left: 5%;
   border:0;
   float: center;
-
 }
-
 
 #text:hover{
   padding:18% 0% 0% 0%;
@@ -162,5 +160,4 @@ body {
 
 #email-bg-header{
   background: url("https://media.giphy.com/media/l0Ex8E17mqY09WNTG/giphy.gif");
-
 }
